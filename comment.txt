@@ -1,0 +1,25 @@
+on utilise l'image php-8.1
+
+
+docker build .     donne un build sur le répertoire courant (à executer dans le repertoire docker)
+
+docker build . -f ./docker/Dockerfile   donne un build sur le répertoire courant à partir de la racine de l'app
+
+passage de la machine au contenaire pour voir toute l'installation
+docker run -it lacléducontenair bash
+
+
+probleme de l'image dans un répertoire html
+configuration de base de apache2
+
+voir les conf de apache2
+cd /etc/apache2/sites-available
+
+ensuite ls
+
+
+   
+
+
+on active les ext
+https://github.com/mlocati/docker-php-extension-installer/
